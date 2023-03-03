@@ -15,5 +15,8 @@ public class App {
             System.out.println("Insira um valor válido");
                 nota = scanner.nextDouble();
         }
+        if (nota <= 10) {
+            System.out.println("Ok");
+        }
     }
 }
